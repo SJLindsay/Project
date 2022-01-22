@@ -16,6 +16,3 @@ def showLetterGrade(percentage):
         grade='F'
         print("The grade " + str(percentage) + " is ", grade)
     # if-elif-else series goes here inside the function.
-showLetterGrade(95)
-showLetterGrade(72)
-showLetterGrade(51)
