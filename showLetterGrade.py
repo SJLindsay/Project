@@ -1,6 +1,6 @@
 def showLetterGrade(percentage):
     # end="" avoids pointer going to new line.
-     if percentage >= 90:
+  if percentage >= 90:
         grade = 'A'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >=80:
@@ -16,4 +16,6 @@ def showLetterGrade(percentage):
         grade='F'
         print("The grade " + str(percentage) + " is ", grade)
     # if-elif-else series goes here inside the function.
-
+showLetterGrade(95)
+showLetterGrade(72)
+showLetterGrade(51)
