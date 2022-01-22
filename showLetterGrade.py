@@ -1,4 +1,4 @@
-def showLetterGrade(percentage):
+def sejintest():
     # end="" avoids pointer going to new line.
     if percentage >= 90:
         grade = 'A'
