@@ -4,7 +4,7 @@ def showLetterGrade(percentage):
         grade='A'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >=80:
-	grade='B'
+        grade='B'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >=70:
         grade='C'
@@ -19,4 +19,3 @@ def showLetterGrade(percentage):
 showLetterGrade(95)
 showLetterGrade(72)
 showLetterGrade(51)
-
