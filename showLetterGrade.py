@@ -17,3 +17,14 @@ def showLetterGrade(percentage):
         print("The grade " + str(percentage) + " is ", grade)
     # if-elif-else series goes here inside the function.
 
+while True:
+    print("Menue")
+    inputGrade = input('Type your grade: ')
+    if inputGrade == "break":
+        print("Good Bye")
+        break
+    elif int(inputGrade) < 0 or int(inputGrade) > 100:
+        print('Please type your grade between 0 and 100')
+    else:
+        percentage = int(inputGrade)
+        showLetterGrade(percentage)
