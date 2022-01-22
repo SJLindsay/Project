@@ -1,20 +1,20 @@
 def showLetterGrade(percentage):
     # end="" avoids pointer going to new line.
     if percentage >= 90:
-        grade='A'
+        grade = 'A'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >= 80:
-grade='B'
+        grade = 'B'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >= 70:
-        grade='C'
+        grade = 'C'
         print("The grade " + str(percentage) + " is ", grade)
     elif percentage >= 60:
-        grade='D'
+        grade = 'D'
         print("The grade " + str(percentage) + " is ", grade)
     else:
-        grade='F'
-        print("The grade " + str(percentage) + " is ", grade)
+        grade = 'F'
+      print("The grade " + str(percentage) + " is ", grade)
     # if-elif-else series goes here inside the function.
 while True:
     print("Menue")
@@ -26,8 +26,4 @@ while True:
         print('Please type your grade between 0 and 100')
     else:
         percentage = int(inputGrade)
-        showLetterGrade(percentage
-
-showLetterGrade(95)
-showLetterGrade(72)
-showLetterGrade(51)
+        showLetterGrade(percentage)
